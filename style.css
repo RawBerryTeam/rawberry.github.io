@@ -44,3 +44,36 @@ footer {
     text-align: center;
     padding: 20px;
 }
+.feedback {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.feedback form {
+    display: inline-block;
+    text-align: left;
+    width: 300px;
+}
+
+.feedback input, .feedback textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.feedback button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1E3A5F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.feedback button:hover {
+    background-color: #163047;
+}
+
